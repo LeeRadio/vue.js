@@ -38,4 +38,17 @@ p[data]{
     color: blueviolet;
 }
 
-/* 위 코드를 사용하면 p 태그안에 data 속성을 부여받은 p 코드만 텍스트를 변경할수있다.
+/* 위 코드를 사용하면 p 태그안에 data 속성을 부여받은 p 코드만 텍스트를 변경할수있다. */
+
+#wrap {
+    border: solid 1px #add
+}
+
+/* 아이디 선택자는 페이지내에서 한곳에만 적용된다. */
+.content {
+    padding: 10px;
+    color: red;
+    border: solid 1px #ddd
+}
+
+/* 클래스 선택자는 아이디 선택자와는 다르게 공통으로 여러곳에 스타일을 적용할수있다. */
